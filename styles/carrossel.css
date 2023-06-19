@@ -75,6 +75,14 @@
     align-self: center;
 }
 
+.botões__ancora:hover{
+    background-color: var(--azul);
+    transform: scale(1.04);
+    transition: .4s;
+}
+
+
+
 .estrelas{
     margin-bottom: 0.5em;
 }
