@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/styles.css">
     <title>Alura Books</title>
@@ -45,7 +47,7 @@
             </label>
 
             <ul class="lista-menu">
-                
+
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a>
                 </li>
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a>
@@ -64,17 +66,18 @@
 
         <div class="container">
             <a href="#">
-                <img src="images/Favoritos.svg" alt="icone favoritos" class="container__imagem container__imagem-transparente">
+                <img src="images/Favoritos.svg" alt="icone favoritos"
+                    class="container__imagem container__imagem-transparente">
             </a>
 
             <a class="container__link" href="#">
-                <img src="images/Compras.svg" alt="sacola icone" class="container__imagem"> 
-                <p class="container__texto">Minha Sacola</p>               
+                <img src="images/Compras.svg" alt="sacola icone" class="container__imagem">
+                <p class="container__texto">Minha Sacola</p>
             </a>
 
             <a class="container__link" href="#">
                 <img src="images/Usuário.svg" alt="icone do usuario" class="container__imagem">
-                <p class="container__texto">Meu Perfil</p> 
+                <p class="container__texto">Meu Perfil</p>
             </a>
         </div>
     </header>
@@ -85,56 +88,59 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+        <div class="carrossel__container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="images/ApacheKafka.svg" alt="livro apache"></div>
-                <div class="swiper-slide"><img src="images/Liderança.svg" alt="livro de liderança"></div>
-                <div class="swiper-slide"><img src="images/Javascript.svg" alt="livro de javascript"></div>
-                <div class="swiper-slide"><img src="images/Guia Front-end.svg" alt="livro de front endt"></div>
-                <div class="swiper-slide"><img src="images/Portugol.svg" alt="livro de portugol"></div>
-                <div class="swiper-slide"><img src="images/Acessibilidade.svg" alt="livro de Acessibilidade"></div>
-            </div>
-
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>    
-
-            
-        </div>
-        <div class="card">
-            <!-- 1 linha  -->
-            <div class="card__descrição">
-                <!-- 1 coluna  -->
-                <div class="descrição">
-                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3> 
-                    <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/ApacheKafka.svg" alt="livro apache"></div>
+                    <div class="swiper-slide"><img src="images/Liderança.svg" alt="livro de liderança"></div>
+                    <div class="swiper-slide"><img src="images/Javascript.svg" alt="livro de javascript"></div>
+                    <div class="swiper-slide"><img src="images/Guia Front-end.svg" alt="livro de front endt"></div>
+                    <div class="swiper-slide"><img src="images/Portugol.svg" alt="livro de portugol"></div>
+                    <div class="swiper-slide"><img src="images/Acessibilidade.svg" alt="livro de Acessibilidade"></div>
                 </div>
-                <!-- 2 coluna  -->
-                <img src="images/Angular.svg" class="descrição__imagem" alt="imagem do angular">
+
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
             </div>
-            <!-- 2 linha  -->
-            <div class="card__botões">
-                <ul class="botões">
-                    <li class="botões__item"><img src="images/Favoritos.svg" alt="favoritar livro"></li>
-                    <li class="botões__item"><img src="images/Compras.svg" alt="adicionar no carrinho"></li>
-                </ul>
-                <!-- 2 coluna  -->
-                <a href="#" class="botões__ancora">Saiba Mais</a>
-            </div>            
+            <div class="card">
+                <!-- 1 linha  -->
+                <div class="card__descrição">
+                    <!-- 1 coluna  -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- 2 coluna  -->
+                    <img src="images/Angular.svg" class="descrição__imagem" alt="imagem do angular">
+                </div>
+                <!-- 2 linha  -->
+                <div class="card__botões">
+                    <ul class="botões">
+                        <li class="botões__item"><img src="images/Favoritos.svg" alt="favoritar livro"></li>
+                        <li class="botões__item"><img src="images/Compras.svg" alt="adicionar no carrinho"></li>
+                    </ul>
+                    <!-- 2 coluna  -->
+                    <a href="#" class="botões__ancora">Saiba Mais</a>
+                </div>
+            </div>
         </div>
     </section>
     <section class="carrossel">
 
         <h2 class="carrossel__titulo titulo-dois">MAIS VENDIDOS</h2>
         <!-- Slider main container -->
+
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -153,7 +159,7 @@
 
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>            
+            <div class="swiper-button-next"></div>
         </div>
         <div class="card">
             <!-- 1 linha  -->
@@ -161,9 +167,10 @@
                 <!-- 1 coluna  -->
                 <div class="descrição">
                     <img src="images/Estrelinhas.svg" class="estrelas" alt="imagem de estrelas avaliação">
-                    <h3 class="descrição__titulo">Autora do Mês</h3> 
+                    <h3 class="descrição__titulo">Autora do Mês</h3>
                     <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em
+                        Front-End.</p>
                 </div>
                 <!-- 2 coluna  -->
                 <img src="images/Perfil-escritora 1.svg" class="descrição__imagem autora" alt="imagem do angular">
@@ -176,10 +183,11 @@
                 </ul>
                 <!-- 2 coluna  -->
                 <a href="#" class="botões__ancora">Saiba Mais</a>
-            </div>            
+            </div>
         </div>
+
     </section>
-    
+
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
@@ -217,7 +225,7 @@
         <input type="email" placeholder="Cadastre seu email" class="contato__email">
     </section>
 
-    <hr/>
+    <hr />
 
     <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
@@ -230,7 +238,7 @@
             <li class="lista-rodapé__item">
                 <img src="images/Caelum.svg" alt="Logo da caelum">
                 <a href="#" class="lista-rodapé__link">Caelum</a>
-            </li>            
+            </li>
         </ul>
         <ul class="lista-rodapé">
             <li class="lista-rodapé__titulo">Educação online</li>
@@ -261,7 +269,7 @@
             <li class="lista-rodapé__item">
                 <img src="images/PM3.svg" alt="Logo da PM3">
                 <a href="#" class="lista-rodapé__link">PM3</a>
-            </li>                                
+            </li>
         </ul>
         <ul class="lista-rodapé">
             <li class="lista-rodapé__titulo">Comunidade</li>
@@ -292,7 +300,7 @@
             <li class="lista-rodapé__item">
                 <img src="images/GUJ.svg" alt="Logo da GUJ">
                 <a href="#" class="lista-rodapé__link">GUJ</a>
-            </li>                                
+            </li>
         </ul>
 
 
